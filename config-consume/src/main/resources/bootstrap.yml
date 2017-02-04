@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-consume
+  cloud:
+    config:
+      profile: sss
+      label: xxx
+      uri: http://localhost:7001/
+server:
+  port: 7002
