@@ -49,16 +49,14 @@
     </dependencyManagement>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>qy-insurance-snapshot</id>
-            <name>qy-insurance-snapshot</name>
-            <url>http://139.224.1.62/nexus/content/repositories/qy-insurance-snapshot/</url>
-        </snapshotRepository>
         <repository>
-            <id>qy-insurance-release</id>
-            <name>qy-insurance-release</name>
-            <url>http://139.224.1.62/nexus/content/repositories/qy-insurance-release/</url>
+            <id>releases</id>
+            <url>http://192.168.222.129:8082/nexus/content/repositories/releases</url>
         </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://192.168.222.129:8082/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
