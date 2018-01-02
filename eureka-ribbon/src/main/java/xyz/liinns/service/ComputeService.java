@@ -5,11 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Description:
- * Created by LiinNs on 2017-2-4 0004.
- * Copyright © 2014-2017 趣医网 www.quyiyuan.com 版权所有
- */
 @Service
 public class ComputeService {
     @Autowired
