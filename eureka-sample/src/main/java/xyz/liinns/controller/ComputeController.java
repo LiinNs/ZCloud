@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Description:
- * Created by LiinNs on 2017-2-3 0003.
- * Copyright © 2014-2017 趣医网 www.quyiyuan.com 版权所有
- */
 @RestController
 @Slf4j
 public class ComputeController {
