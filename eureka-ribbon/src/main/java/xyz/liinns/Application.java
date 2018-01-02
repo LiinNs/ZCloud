@@ -8,11 +8,6 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Description:
- * Created by LiinNs on 2017-2-3 0003.
- * Copyright © 2014-2017 趣医网 www.quyiyuan.com 版权所有
- */
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableCircuitBreaker
